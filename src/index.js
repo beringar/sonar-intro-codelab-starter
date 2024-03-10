@@ -19,7 +19,6 @@ export function sortAnimals() {
   Math.floor(2 * Math.random());
 
   if (animalsData.length % 2 == 1) {
-    //This will trigger a Code Smell
     delete animalsData[1];
   }
 
